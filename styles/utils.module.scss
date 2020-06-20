@@ -1,0 +1,78 @@
+.headerContainer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.headerLogoL {
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+  }
+
+.headerLogoM {
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem;
+  }
+
+.heading2Xl {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingXl {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+  margin: 1rem 0;
+}
+
+.headingLg {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+
+.headingMd {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+
+.borderCircle {
+  border-radius: 9999px;
+}
+
+.colorInherit {
+  // aタグの装飾を消す
+  color: inherit;
+  text-decoration: none;
+}
+
+.padding1px {
+  padding-top: 1px;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  padding: 10px 15px;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: skyblue;
+}
+
+.lightText {
+  color: #999;
+}
